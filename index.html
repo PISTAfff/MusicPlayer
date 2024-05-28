@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pista-Music Player</title>
+</head>
+
+<body>
+    <audio src="Mistake.mp3" id="Song"></audio>
+    <div class="Container">
+        <div class="Song-Image" id="image">
+        </div>
+        <div class="Content-Container">
+            <div class="Title">
+                <header>NF - Mistake</header>
+            </div>
+            <p id="Music-Value">00:00</p>
+            <div class="Bar">
+                <div class="Bar Progres-Bar" id="Progres-Bar">
+                    <button class="Bar-Button" id="Button">
+                    </button>
+                </div>
+            </div>
+
+            <div class="Bottom">
+                <button class="Go-Start-Button Btn" onclick="Start_All_Over()">
+                    <img src="assests/go-start.svg" alt="Go Start Button">
+                </button>
+                <button class="Backward-Button Btn" onclick="Back10()">
+                    <img src="assests/back-one.svg" alt="Backward Button">
+                </button>
+                <button class="Play-Pause-Button Btn " onclick="Play_Pause()">
+                    <img id="Play-Pause-Button" src="assests/play-one.svg" alt="Play Button">
+                </button>
+                <button class="Forward-Button Btn" onclick="Move10()">
+                    <img src="assests/go-ahead.svg" alt="Forward Button">
+                </button>
+                <button class="Loop-Button Btn" id="Loop-Button" onclick="Change_Repeat_State()">
+                    <img src="assests/play-cycle.svg" alt="Cycle Button">
+                </button>
+                <button class="Sound-Button Btn" id="Sound-Button" onclick="Sound_Bar()">
+                    <img src="assests/speaker-simple-high-bold.svg" alt=" Sound Button">
+                </button>
+                <div class="Sound-Background" id="Sound-Background">
+                    <p id="Sound-Value">100</p>
+                    <div class="Sound-Progress-Bar Sound-Bar-">
+                        <div class="Sound-Bar Sound-Bar-" id="Sound-Progress-Bar">
+                            <button class="Sound-Bar-Button" id="Sound-Bar-Button"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="functionality.js"></script>
+</body>
+
+</html>

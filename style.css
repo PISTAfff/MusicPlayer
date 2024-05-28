@@ -1,0 +1,213 @@
+* {
+  font-family: monospace;
+}
+body {
+  background-image: url("assests/BackGround.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Container {
+  width: 800px;
+  height: 600px;
+  background-color: rgba(131, 131, 131, 0.356);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+}
+.Song-Image {
+  width: 250px;
+  height: 350px;
+  background-image: url("assests/Song-Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  top: 125px;
+  border-radius: 0% 100% 44% 56% / 100% 30% 70% 0%;
+}
+.Content-Container {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  left: 275px;
+  bottom: 250px;
+  background-color: rgba(70, 70, 70, 0.356);
+  border-radius: 20px;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Title header {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.Bar {
+  background-color: gray;
+  width: 350px;
+  height: 7.5px;
+  border-radius: 20px;
+  position: relative;
+  left: 75px;
+  bottom: -25px;
+}
+.Progres-Bar {
+  display: flex;
+  justify-content: right;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  max-width: 100%;
+}
+.Transparent-Bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Bar-Button {
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+  border: 5px solid gray;
+  background-color: red;
+  border-radius: 10px;
+  position: relative;
+  top: -5px;
+  left: 5px;
+}
+.Bar-Button:hover {
+  background-color: orangered;
+}
+.Bar-Button:active {
+  background-color: orangered;
+}
+.Song-Time {
+  color: whitesmoke;
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+.Bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47.5%;
+  width: 100%;
+  margin-top: -25px;
+}
+.Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  transition: 0.5s;
+  background-color: transparent;
+  border: transparent;
+  margin: 100px 5px 0 5px;
+  border-radius: 10px;
+  position: relative;
+  left: 32.5px;
+}
+
+.Btn:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+.Sound-Button {
+  position: relative;
+  left: 50px;
+  z-index: 1;
+}
+.Sound-Background {
+  transition: 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 200px;
+  position: relative;
+  left: 75px;
+  bottom: 30px;
+  background-color: rgba(82, 82, 82, 0.103);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+#Music-Value {
+  width: 350px;
+  height: 10px;
+  position: relative;
+  text-align: center;
+  bottom: -75px;
+  left: 15%;
+  color: white;
+}
+#Sound-Value {
+  width: fit-content;
+  height: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+  color: white;
+}
+.Sound-Bar- {
+  background-color: gray;
+  width: 7.5px;
+  height: 130px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 15px;
+}
+.Sound-Progress-Bar {
+  background-color: gray;
+  position: absolute;
+  top: 30px;
+  left: 11.75px;
+  height: 150px;
+  rotate: 180deg;
+}
+.Sound-Bar {
+  display: flex;
+  align-items: end;
+  background-color: red;
+  width: 7.5px;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  max-height: 100%;
+}
+.Sound-Bar-Button {
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+  border: 5px solid gray;
+  background-color: red;
+  border-radius: 10px;
+  position: relative;
+  bottom: -7.5px;
+  left: -7px;
+}
+.Sound-Bar-Button:hover {
+  background-color: orangered;
+}
+.Sound-Bar-Button:active {
+  background-color: orangered;
+}
